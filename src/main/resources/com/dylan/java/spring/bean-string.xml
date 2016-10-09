@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="msgdefinion1" class="com.dylan.java.spring.bean.MsgDefinition">
+		<property name="name" value="trade"/>
+		<property name="groupName" value="TAP"/>
+		<property name="replierSource" ref="replierSource1"/>
+	</bean>
+
+</beans>
